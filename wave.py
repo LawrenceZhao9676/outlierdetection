@@ -5,7 +5,6 @@ import glob,os
 from pyod.models.hbos import HBOS
 from pyod.models.knn import KNN
 from pyod.models.ocsvm import OCSVM
-#合并所有benchmarks
 result=open('wave_result-OCSVM.txt','a')
 path=r'.\wave\benchmarks'
 file=os.listdir(path)

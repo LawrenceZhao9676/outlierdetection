@@ -5,7 +5,6 @@ import glob,os
 from pyod.models.hbos import HBOS
 from pyod.models.knn import KNN
 from pyod.models.ocsvm import OCSVM
-#合并所有benchmarks
 result=open('wine_result-OCSVM.txt','a')
 path=r'.\wine\benchmarks'
 file=os.listdir(path)
